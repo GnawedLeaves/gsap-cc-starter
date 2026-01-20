@@ -16,11 +16,12 @@ const GsapScrollTrigger = () => {
         duration: 3,
         borderRadius: "100%",
         x: 150 * (index + 2),
+        marginBottom: 160,
         scrollTrigger: {
           trigger: box,
-          start: "bottom bottom", // when the bottom of the trigger hits the bottom of the viewport
+          start: "top 80%", // when the bottom of the trigger hits the bottom of the viewport
           // end: "+=500",
-          end: "50%",
+          end: "top top ",
           scrub: 1
         }
       })
